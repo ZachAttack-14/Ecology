@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "ecology:block/stripped_dwarfed_spruce_post"
+      "model": "ecology:block/stripped_dwarfed_spruce_post_model"
     }
   }
 }

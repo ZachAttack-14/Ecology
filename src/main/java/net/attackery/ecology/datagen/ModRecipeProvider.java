@@ -28,14 +28,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         return new RecipeProvider(recipes, advancements) {
             @Override
             public void buildRecipes() {
-                List<ItemLike> CRAFTABLES = List.of(ModBlocks.DWARFED_SPRUCE_LOG);
-
-                woodFromLogs(Items.SPRUCE_PLANKS, ModBlocks.DWARFED_SPRUCE_LOG);
-
                 List<ItemLike> SMELTABLES = List.of(Items.GLOW_LICHEN);
 
                 oreSmelting(SMELTABLES, RecipeCategory.MISC, CookingBookCategory.MISC, Items.GLOW_INK_SAC, 0.25f, 200, "lichen");
 
+                woodFromLogs(ModBlocks.DWARFED_SPRUCE_LOG, ModBlocks.DWARFED_SPRUCE_LOG);
+                woodFromLogs(ModBlocks.DWARFED_SPRUCE_POST, ModBlocks.DWARFED_SPRUCE_POST);
+                woodFromLogs(ModBlocks.STRIPPED_DWARFED_SPRUCE_LOG, ModBlocks.STRIPPED_DWARFED_SPRUCE_LOG);
+                woodFromLogs(ModBlocks.STRIPPED_DWARFED_SPRUCE_POST, ModBlocks.STRIPPED_DWARFED_SPRUCE_POST);
             }
         };
     }

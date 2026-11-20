@@ -46,10 +46,6 @@
     "height_rand_b": 1
   },
   "trunk_provider": {
-    "id": "ecology:dwarfed_spruce_log",
-    "properties": {
-      "axis": "y",
-      "waterlogged": "false"
-    }
+    "id": "ecology:dwarfed_spruce_log"
   }
 }
