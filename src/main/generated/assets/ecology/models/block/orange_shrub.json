@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "ecology:block/orange_shrub"
+    "all": "ecology:block/orange_shrub_model"
   }
 }

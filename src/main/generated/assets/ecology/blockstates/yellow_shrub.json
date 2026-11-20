@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "ecology:block/yellow_shrub"
+      "model": "ecology:block/yellow_shrub_model"
     }
   }
 }

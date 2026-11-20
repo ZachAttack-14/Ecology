@@ -12,9 +12,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 
@@ -22,7 +20,8 @@ import java.util.function.Function;
 
 public class ModBlocks {
     public static final Block BLOOMING_LICHEN = registerBlock("blooming_lichen",
-            properties -> new BloomingLichenBlock(properties.noCollision().sound(SoundType.GLOW_LICHEN).lightLevel(BlockBehaviour.BlockStateBase::getLightEmission)));
+            properties -> new BloomingLichenBlock(properties.noCollision()
+                    .sound(SoundType.GLOW_LICHEN).lightLevel(BlockBehaviour.BlockStateBase::getLightEmission)));
     public  static final Block ORANGE_MOSS = registerBlock("orange_moss",
             properties -> new Block(properties.strength(0.1f)
                     .sound(SoundType.MOSS)));
@@ -36,13 +35,13 @@ public class ModBlocks {
             properties -> new DropExperienceBlock(UniformInt.of(2, 5), properties.strength(7.5f)
                 .requiresCorrectToolForDrops().sound(SoundType.BASALT)));
     public  static final Block STUNTED_RED_SHRUB = registerBlock("stunted_red_shrub",
-            properties -> new Block(properties.strength(0.1f)
+            properties -> new BushBlock(properties.noCollision().strength(0.1f)
                     .sound(SoundType.RED_SHRUB)));
     public  static final Block ORANGE_SHRUB = registerBlock("orange_shrub",
-            properties -> new Block(properties.strength(0.1f)
+            properties -> new BushBlock(properties.noCollision().strength(0.1f)
                     .sound(SoundType.RED_SHRUB)));
     public  static final Block YELLOW_SHRUB = registerBlock("yellow_shrub",
-            properties -> new Block(properties.strength(0.1f)
+            properties -> new BushBlock(properties.noCollision().strength(0.1f)
                     .sound(SoundType.RED_SHRUB)));
     public  static final Block WHITE_ICE = registerBlock("white_ice",
             properties -> new Block(properties.strength(0.5f)

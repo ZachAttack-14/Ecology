@@ -18,9 +18,6 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.ORANGE_MOSS);
         blockModelGenerators.createTrivialCube(ModBlocks.RED_MOSS);
         blockModelGenerators.createTrivialCube(ModBlocks.YELLOW_MOSS);
-        blockModelGenerators.createTrivialCube(ModBlocks.ORANGE_SHRUB);
-        blockModelGenerators.createTrivialCube(ModBlocks.STUNTED_RED_SHRUB);
-        blockModelGenerators.createTrivialCube(ModBlocks.YELLOW_SHRUB);
         blockModelGenerators.createTrivialCube(ModBlocks.SMOOTH_BASALT_IRON_ORE);
         blockModelGenerators.createTrivialCube(ModBlocks.WHITE_ICE);
 
@@ -29,6 +26,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createNonTemplateModelBlock(ModBlocks.STRIPPED_DWARFED_SPRUCE_LOG);
         blockModelGenerators.createNonTemplateModelBlock(ModBlocks.STRIPPED_DWARFED_SPRUCE_POST);
         blockModelGenerators.createCrossBlock(ModBlocks.BLOOMING_LICHEN, BlockModelGenerators.PlantType.NOT_TINTED);
+        blockModelGenerators.createCrossBlock(ModBlocks.ORANGE_SHRUB, BlockModelGenerators.PlantType.NOT_TINTED);
+        blockModelGenerators.createCrossBlock(ModBlocks.STUNTED_RED_SHRUB, BlockModelGenerators.PlantType.NOT_TINTED);
+        blockModelGenerators.createCrossBlock(ModBlocks.YELLOW_SHRUB, BlockModelGenerators.PlantType.NOT_TINTED);
 
     }
 

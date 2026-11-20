@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "ecology:block/stunted_red_shrub"
+    "all": "ecology:block/red_shrub"
   }
 }
