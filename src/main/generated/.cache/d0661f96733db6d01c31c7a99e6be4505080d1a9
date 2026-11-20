@@ -1,7 +1,7 @@
 // 26.3	-999999999-01-01T00:00:00	Ecology!/Ecology Data Provider
 c522a31f61de8602081824ca8ad5b15fb6798fc0 data/ecology/worldgen/feature/lichen_key.json
 f05777d0a9aa3527b6ed623328a188b3abc88d8e data/ecology/worldgen/feature/snowy_plains_ore_key.json
-3690885b9f6b7ff2cf893668b4056af06c5adc4c data/ecology/worldgen/feature/snowy_plains_tree_key.json
+d840d4b90d941d90314cde7068aea5ed723179c4 data/ecology/worldgen/feature/snowy_plains_tree_key.json
 01d9a0b448158e3b345fd847607d576a0a56a183 data/ecology/worldgen/placed_feature/dwarfed_tree_placed_key.json
 ad6e272a3b61f6969758cb2b4f93ffc2cd7265b8 data/ecology/worldgen/placed_feature/lichen_placed_key.json
 60c71b23d53f633153512e46a9dec538c5cb06a0 data/ecology/worldgen/placed_feature/snowy_plains_ore_placed.json

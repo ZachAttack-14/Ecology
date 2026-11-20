@@ -21,9 +21,8 @@ import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import java.util.function.Function;
 
 public class ModBlocks {
-    public  static final Block BLOOMING_LICHEN = registerBlock("blooming_lichen",
-            properties -> new BloomingLichenBlock(properties.strength(0.5f)
-                    .sound(SoundType.GLOW_LICHEN)));
+    public static final Block BLOOMING_LICHEN = registerBlock("blooming_lichen",
+            properties -> new BloomingLichenBlock(properties.noCollision().sound(SoundType.GLOW_LICHEN).lightLevel(BlockBehaviour.BlockStateBase::getLightEmission)));
     public  static final Block ORANGE_MOSS = registerBlock("orange_moss",
             properties -> new Block(properties.strength(0.1f)
                     .sound(SoundType.MOSS)));

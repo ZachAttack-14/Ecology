@@ -28,7 +28,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createNonTemplateModelBlock(ModBlocks.DWARFED_SPRUCE_POST);
         blockModelGenerators.createNonTemplateModelBlock(ModBlocks.STRIPPED_DWARFED_SPRUCE_LOG);
         blockModelGenerators.createNonTemplateModelBlock(ModBlocks.STRIPPED_DWARFED_SPRUCE_POST);
-        blockModelGenerators.createNonTemplateModelBlock(ModBlocks.BLOOMING_LICHEN);
+        blockModelGenerators.createCrossBlock(ModBlocks.BLOOMING_LICHEN, BlockModelGenerators.PlantType.NOT_TINTED);
 
     }
 
