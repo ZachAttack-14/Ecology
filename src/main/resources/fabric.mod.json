@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "ecology",
+	"version": "${version}",
+	"name": "Ecology!",
+	"description": "hello man",
+	"authors": [
+		"IAmSiRocket, ZachAttackery14"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.attackery.ecology.Ecology"
+		],
+		"client": [
+			"net.attackery.ecology.EcologyClient"
+		],
+		"fabric-datagen": [
+			"net.attackery.ecology.EcologyDataGenerator"
+		]
+
+	},
+	"mixins": [
+		"ecology.mixins.json"
+	],
+	"accessWidener": "Ecology.classtweaker",
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

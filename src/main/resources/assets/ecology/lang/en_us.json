@@ -1,0 +1,29 @@
+{
+  "item.minecraft.glow_ink_sac": "Phosphor",
+  "item.ecology.muskox_spawn_egg": "Muskox Spawn Egg",
+
+
+  "block.ecology.orange_moss": "Orange Moss",
+  "block.ecology.red_moss": "Red Moss",
+  "block.ecology.yellow_moss": "Yellow Moss",
+  "block.ecology.blooming_lichen": "Blooming Lichen",
+  "block.ecology.smooth_basalt_iron_ore": "Smooth Basalt Iron Ore",
+  "block.ecology.orange_shrub": "Orange Shrub",
+  "block.ecology.stunted_red_shrub": "Stunted Red Shrub",
+  "block.ecology.yellow_shrub": "Yellow Shrub",
+  "block.ecology.white_ice": "White Ice",
+  "block.ecology.dwarfed_spruce_log": "Dwarfed Spruce Log",
+  "block.ecology.dwarfed_spruce_post": "Dwarfed Spruce Post",
+  "block.ecology.stripped_dwarfed_spruce_post": "Stripped Dwarfed Spruce Post",
+  "block.ecology.stripped_dwarfed_spruce_log": "Stripped Dwarfed Spruce Post",
+
+
+  "creativemodetab.ecology.ecology_items": "Ecology Items",
+  "creativemodetab.ecology.ecology_blocks": "Ecology Blocks",
+
+  "sounds.ecology.muskox_ambient": "Muskox Ambience",
+
+
+  "entity.ecology.muskox": "Muskox"
+
+}

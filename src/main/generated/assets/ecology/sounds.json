@@ -1,0 +1,27 @@
+{
+  "muskox_ambient": {
+    "sounds": [
+      "ecology:muskox_ambient_1",
+      "ecology:muskox_ambient_2",
+      "ecology:muskox_ambient_3",
+      "ecology:muskox_ambient_4",
+      "ecology:muskox_ambient_5"
+    ],
+    "subtitle": "sounds.ecology.muskox_ambient"
+  },
+  "muskox_attack": {
+    "sounds": [
+      "ecology:muskox_attack_1",
+      "ecology:muskox_attack_2",
+      "ecology:muskox_attack_3"
+    ],
+    "subtitle": "sounds.ecology.muskox_attack"
+  },
+  "muskox_death": {
+    "sounds": [
+      "ecology:muskox_death_1",
+      "ecology:muskox_death_2"
+    ],
+    "subtitle": "sounds.ecology.muskox_death"
+  }
+}

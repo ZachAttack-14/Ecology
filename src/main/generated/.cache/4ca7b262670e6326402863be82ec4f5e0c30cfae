@@ -1,0 +1,13 @@
+// 26.3	-999999999-01-01T00:00:00	Ecology!/Block Loot Tables
+26f8205a9606cf60b1021d1ab84eed79b0e619ca data/ecology/loot_table/blocks/blooming_lichen.json
+213b8c29d7961c528a26e3f36bd6ca4ee007ab6b data/ecology/loot_table/blocks/dwarfed_spruce_log.json
+47129a63f96ccd7bc8a3d0bf9fc4238dd8c6a8de data/ecology/loot_table/blocks/dwarfed_spruce_post.json
+c02291f165db933ee467fc40838566f101df7e6f data/ecology/loot_table/blocks/orange_moss.json
+6aa1235863588b6748511e44d5e1db10d3946334 data/ecology/loot_table/blocks/orange_shrub.json
+40349a869d4b11b3c0e12c013962a6bcad269039 data/ecology/loot_table/blocks/red_moss.json
+b5f0acf9d0e5a041d5f813793f1f69c644d60e14 data/ecology/loot_table/blocks/smooth_basalt_iron_ore.json
+003774411705cedfb80510a888a3abfa26fad874 data/ecology/loot_table/blocks/stripped_dwarfed_spruce_log.json
+7ba445dc6c5446e63b4ea62a4936996ad6be74b4 data/ecology/loot_table/blocks/stripped_dwarfed_spruce_post.json
+80ca01864a7a5077417fcd36ffaf1bec1f456ef6 data/ecology/loot_table/blocks/stunted_red_shrub.json
+da3cdbece9f69f87d602638c81b00f56bc97523c data/ecology/loot_table/blocks/yellow_moss.json
+27315ef49cbea62adb4ddd619976b5b11e8936fb data/ecology/loot_table/blocks/yellow_shrub.json

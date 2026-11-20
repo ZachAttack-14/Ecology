@@ -1,0 +1,5 @@
+// 26.3	-999999999-01-01T00:00:00	Ecology!/Tags for minecraft:block
+39ea3c7bcdedc157b9e3f8c1b86246ed3fd6daa1 data/ecology/tags/block/dwarfed_logs.json
+fb5afc93830ddc7aaed1029a19999dd2009c5a70 data/minecraft/tags/block/logs.json
+c41a1b6acea5fe2575132f9c56d65bd991d9eb93 data/minecraft/tags/block/mineable/pickaxe.json
+c41a1b6acea5fe2575132f9c56d65bd991d9eb93 data/minecraft/tags/block/needs_stone_tool.json
