@@ -1,9 +1,5 @@
-# Ecology!
-
-## Setup
-
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+# Ecology! 
+## A 26.3 Minecraft mod with Fabric
+Ecology! is a Minecraft mod where your choices matter.
+- Simulate real world mechanics with several design choices.
+- A more realistic ecosystem. Your choices affect the environment around you.
