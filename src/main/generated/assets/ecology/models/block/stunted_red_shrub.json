@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cross",
   "textures": {
-    "all": "ecology:block/red_shrub"
+    "cross": "ecology:block/stunted_red_shrub"
   }
 }

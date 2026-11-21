@@ -19,6 +19,7 @@ public class EcologyDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModRegistryDataProvider::new);
 		pack.addProvider(ModSoundsProvider::new);
+		pack.addProvider(ModEntityLootTableProvider::new);
 	}
 
 	public void buildRegistry(RegistrySetBuilder registryBuilder) {
