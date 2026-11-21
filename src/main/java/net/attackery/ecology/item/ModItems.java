@@ -15,10 +15,8 @@ import net.minecraft.world.item.SpawnEggItem;
 import java.util.function.Function;
 
 public class ModItems {
-    public static final Item MUSKOX_SPAWN_EGG = registerItem(
+    public static final Item MUSKOX_SPAWN_EGG = registerItem("muskox_spawn_egg",
             properties -> new SpawnEggItem(properties.spawnEgg(ModEntities.MUSKOX)));
-
-
 
     private static Item registerItem(Function<Item.Properties, Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(Ecology.MOD_ID, "muskox_spawn_egg"),
@@ -28,8 +26,15 @@ public class ModItems {
     public static void registerModItems() {
         Ecology.LOGGER.info("Registering Mod Items for " + Ecology.MOD_ID);
 
-        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.SPAWN_EGGS).register(output -> {
-            output.accept(MUSKOX_SPAWN_EGG);
-        });
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.SPAWN_EGGS).register(output -> output.accept(MUSKOX_SPAWN_EGG));
     }
+
+    public static ResourceKey<Item> getRK(Item item) {
+        return BuiltInRegistries.ITEM.getResourceKey(item).get();
+    }
+
+    private static Item registerItem(String name, Function<Item.Properties, Item> function) {
+        return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(Ecology.MOD_ID, name),
+                function.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(Ecology.MOD_ID, name)))));
+        }
 }

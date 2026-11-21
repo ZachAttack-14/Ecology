@@ -5,6 +5,7 @@ import net.attackery.ecology.entity.custom.MuskoxEntity;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.Identifier;
+import org.jspecify.annotations.NonNull;
 
 public class MuskoxRenderer extends MobRenderer<MuskoxEntity, MuskoxRenderState, MuskoxModel> {
     public MuskoxRenderer(EntityRendererProvider.Context context) {
@@ -12,17 +13,17 @@ public class MuskoxRenderer extends MobRenderer<MuskoxEntity, MuskoxRenderState,
     }
 
     @Override
-    public Identifier getTextureLocation(MuskoxRenderState state) {
+    public @NonNull Identifier getTextureLocation(@NonNull MuskoxRenderState state) {
         return Identifier.fromNamespaceAndPath(Ecology.MOD_ID, "textures/entity/muskox/muskox.png");
     }
 
     @Override
-    public MuskoxRenderState createRenderState() {
+    public @NonNull MuskoxRenderState createRenderState() {
         return new MuskoxRenderState();
     }
 
     @Override
-    public void extractRenderState(MuskoxEntity entity, MuskoxRenderState state, float partialTicks) {
+    public void extractRenderState(@NonNull MuskoxEntity entity, @NonNull MuskoxRenderState state, float partialTicks) {
         super.extractRenderState(entity, state, partialTicks);
 
         state.idleAnimationState.copyFrom(entity.idleAnimationState);

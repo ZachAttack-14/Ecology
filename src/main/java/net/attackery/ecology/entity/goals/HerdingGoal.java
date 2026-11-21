@@ -1,4 +1,4 @@
-package net.attackery.ecology.goals;
+package net.attackery.ecology.entity.goals;
 
 import net.minecraft.world.entity.ai.goal.Goal;
 import net.minecraft.world.entity.animal.Animal;
@@ -7,9 +7,6 @@ import org.jspecify.annotations.Nullable;
 import java.util.List;
 
 public class HerdingGoal extends Goal {
-    public static final int HORIZONTAL_SCAN_RANGE = 8;
-    public static final int VERTICAL_SCAN_RANGE = 4;
-    public static final int DONT_FOLLOW_IF_CLOSER_THAN = 3;
     private final Animal animal;
     private @Nullable Animal parent;
     private final double speedModifier;
@@ -60,6 +57,7 @@ public class HerdingGoal extends Goal {
             return false;
         }
 
+        assert this.parent != null;
         if (!this.parent.isAlive()) {
             return false;
         }
@@ -82,6 +80,7 @@ public class HerdingGoal extends Goal {
     public void tick() {
         if (--this.timeToRecalcPath <= 0) {
             this.timeToRecalcPath = this.adjustedTickDelay(10);
+            assert this.parent != null;
             this.animal.getNavigation().moveTo(this.parent, this.speedModifier);
         }
     }
